@@ -11,3 +11,7 @@
 # Android完整开源项目 #
 ### 小说阅读器 ###
 [https://github.com/smuyyh/BookReader](https://github.com/smuyyh/BookReader)
+# Android Library gradle配置不生成BuildConfig.java #
+    libraryVariants.all {
+        it.generateBuildConfig.enabled = false
+    }
